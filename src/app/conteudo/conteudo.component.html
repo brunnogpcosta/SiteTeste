@@ -16,8 +16,8 @@
                 <figcaption>
                     <strong class="card-title">{{legenda.title}}</strong>
                     <span class="main-text">{{legenda.body}}</span>
-                    <button onclick="leiaMais()" id="btnLeiaMais">Leia Mais</button>
-                    <script type="text/javascript" src="/js/scripts.js"></script>
+                    <button id="btnLeiaMais" routerLink="/conteudo/detalhe" routerLinkActive="active">Leia Mais</button>
+                    
                 </figcaption>
             </figure>
 
@@ -42,6 +42,11 @@
                         <img src="assets/search.png" alt="Lupa">
                     </button>
                 </form>
+            </div>
+
+            <div class="search">
+              
+                    <button class="enterButton" routerLink="/conteudo/cadastrar" routerLinkActive="active">Cadastrar Notícias</button>
             </div>
         </div>
 

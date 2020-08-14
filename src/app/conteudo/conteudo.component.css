@@ -144,3 +144,17 @@ figcaption {
   
    
 }
+.enterButton{
+padding: 1rem;
+margin-top: 1rem;
+width: 13rem;
+border-radius: 0.5rem;
+
+
+}
+
+.enterButton:hover{
+background-color: rgb(95, 95, 95);
+cursor: pointer;
+
+}
